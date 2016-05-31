@@ -1,0 +1,135 @@
+ncsim 11.10-s072
+Linux 2.6.32-431.11.2.el6.x86_64 #1 SMP Tue Mar 25 19:59:55 UTC 2014 x86_64
+CPU cores: 16
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+LC_PAPER=zh_TW.UTF-8
+LC_ADDRESS=zh_TW.UTF-8
+HOSTNAME=ed520.ee.nctu.edu.tw
+LC_MONETARY=zh_TW.UTF-8
+TERM=xterm
+SHELL=/bin/bash
+HISTSIZE=10000
+SSH_CLIENT=140.113.225.125 44308 22
+LC_NUMERIC=zh_TW.UTF-8
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/26
+USER=kunhuahuang
+LD_LIBRARY_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/::/usr/cad/cadence/EDI/cur//tools/tlfUtil/lib:/usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib:/fpga/Xilinx/14.2/ISE_DS/ISE/lib/lin64:/fpga/Xilinx/14.2/ISE_DS/ISE/smartmodel/lin64/installed_lin64/lib:/fpga/Xilinx/14.2/ISE_DS/EDK/lib/lin64:/usr/local/cuda/lib64:/opt/AMDAPP/lib/x86_64:/opt/AMDAPP/lib/x86:/opt/AMDAPP/lib/x86_64:/opt/AMDAPP/lib/x86
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LIBGL_DRIVERS_PATH=/usr/lib/dri:/usr/lib64/dri:/usr/lib/dri:/usr/lib64/dri
+LC_TELEPHONE=zh_TW.UTF-8
+MAIL=/var/spool/mail/kunhuahuang
+PATH=/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/fuse/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/fuse/lib/sparc/jre1.2.2/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/fuse/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/fuse/lib/sparc/jre1.1.5/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/fuse/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_sp_adv/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_sp_adv/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_sp_adv/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_2p_adv/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_2p_adv/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rf_2p_adv/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_sp_adv/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_sp_adv/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_sp_adv/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rodsd/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rodsd/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/rodsd/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_dp_adv/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_dp_adv/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/aci/sram_dp_adv/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/sparc/jre/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/sparc/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/sparc/jre_tiling/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/linux/jre/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/linux/j2re1.4.2_04/bin:/usr/cad/cadence/CBDK_TSMC90GUTM_Arm_f1.0/orig_lib/TS19CE000-FE-00000-r3p0-00eac0/arm/tsmc/cln90g/rf_2p_uhd/r3p0-00eac0/lib/linux/jre_tiling/bin:/opt/gcc-4.2.2/bin/:/usr/bin/X11:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/cad/synopsys/vcs/cur/bin:/usr/cad/synopsys/vcs/cur/linux/bin:/usr/cad/synopsys/vcs/cur/linux/util:/usr/cad/synopsys/vcs/cur/linux/flexlm:/usr/cad/cadence/EDI/cur/tools/celtic/bin:/usr/cad/cadence/EDI/cur/tools/plato/bin:/usr/cad/cadence/EDI/cur/tools/dfII/bin:/usr/cad/cadence/EDI/cur/tools/fe/bin:/usr/cad/cadence/EDI/cur/tools/cdsdoc/bin:/usr/cad/cadence/EDI/cur/tools/bin:/usr/cad/cadence/EDI/cur//tools/tlfUtil/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/fpga/Xilinx/14.2/ISE_DS/ISE/bin/lin64:/fpga/Xilinx/14.2/ISE_DS/ISE/sysgen/util:/fpga/Xilinx/14.2/ISE_DS/EDK/bin/lin64:/fpga/Xilinx/14.2/ISE_DS/PlanAhead/bin:/opt/vim74/bin:/home/local/kunhuahuang/bin:/usr/local/bin:/opt/vim74/bin:/usr/local/cuda/bin:/opt/vim74/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/local/kunhuahuang/bin:/home/local/kunhuahuang/bin
+LC_IDENTIFICATION=zh_TW.UTF-8
+AMDAPPSDKROOT=/opt/AMDAPP
+PWD=/home/local/kunhuahuang/MEM/MRand1W/2Rand1WR
+LANG=zh_TW.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+LC_MEASUREMENT=zh_TW.UTF-8
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HISTCONTROL=ignoredups
+SHLVL=2
+HOME=/home/local/kunhuahuang
+LOGNAME=kunhuahuang
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+SSH_CONNECTION=140.113.225.125 44308 140.113.225.115 22
+LC_CTYPE=zh_TW.UTF-8
+MODULESHOME=/usr/share/Modules
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+DISPLAY=localhost:14.0
+LC_TIME=zh_TW.UTF-8
+G_BROKEN_FILENAMES=1
+LC_NAME=zh_TW.UTF-8
+module=() {  eval `/usr/bin/modulecmd bash $*`
+}
+OLDPWD=/home/local/kunhuahuang/MEM/MRand1W
+ZSH=/home/local/kunhuahuang/.oh-my-zsh
+PAGER=less
+LESS=-R
+LSCOLORS=Gxfxcxdxbxegedabagacad
+_=/home/local/kunhuahuang/MEM/MRand1W/2Rand1WR/./exec.sh
+HOSTTYPE=x86_64-linux
+VENDOR=unknown
+OSTYPE=linux
+MACHTYPE=x86_64
+GROUP=ED520
+HOST=ed520.ee.nctu.edu.tw
+REMOTEHOST=140.113.225.125
+XILINXD_LICENSE_FILE=2100@140.113.202.151
+LM_LICENSE_FILE=26585@lsnctu:5280@lsnctu:5280@lscic:5280@lsncku:5280@lsnchu:5280@lsnctu:2100@140.113.202.151
+XILINX=/fpga/Xilinx/14.2/ISE_DS/ISE
+XILINX_EDK=/fpga/Xilinx/14.2/ISE_DS/EDK
+XILINX_PLANAHEAD=/fpga/Xilinx/14.2/ISE_DS/PlanAhead
+XILINX_DSP=/fpga/Xilinx/14.2/ISE_DS/ISE
+LMC_HOME=/fpga/Xilinx/14.2/ISE_DS/ISE/smartmodel/lin64/installed_lin64
+ENCOUNTER=/usr/cad/cadence/EDI/cur/tools/fe
+OAHOME=/usr/cad/cadence/EDI/cur/oa
+OA_HOME=/usr/cad/cadence/EDI/cur/oa
+VCS_HOME=/usr/cad/synopsys/vcs/cur
+VCS_CC=gcc
+SHLIB_PATH=/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX
+SYNTHESIS=/usr/cad/synopsys/synthesis/cur
+SYNOPSYS=/usr/cad/synopsys/synthesis/cur
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man
+/home/local/kunhuahuang/MEM/MRand1W/2Rand1WR/INCA_libs/irun.lnx86.11.10.nc/svpp.ts
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.11.10.nc
+IRUNBATCH=FALSE
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=-y
+argv[2]=/fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src/unisims
+argv[3]=-y
+argv[4]=/fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src/XilinxCoreLib
+argv[5]=+incdir+/fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src
+argv[6]=+libext+.v
+argv[7]=/fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src/glbl.v
+argv[8]=./blk_mem_gen_v7_2.v
+argv[9]=./TESTBENCH.v
+argv[10]=+define+RTL
+argv[11]=+access+rw
+argv[12]=+notimingchecks
+110 profile - 100
+          CPU/Mem usage: 0.060 sys,  0.060 user,  45.40M sys,  0.00M vm
+111 VC callback profile - scalar:0 vector:0
+112 Tue Jun 30 18:16:54 2015
+113 pliAppInit
+114 *Verdi3* : Enable Parallel Dumping.
+115 pliAppMiscSet: New Sim Round
+116 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so through $LD_LIBRARY_PATH setting.
+117 Catch signal 11. Stack trace follows:
+#0  0x00b0a430 in __kernel_vsyscall ()
+#1  0x00c728c3 in __read_nocancel () from /lib/libc.so.6
+#2  0x00c0c72b in _IO_new_file_underflow () from /lib/libc.so.6
+#3  0x00c0e44b in _IO_default_uflow_internal () from /lib/libc.so.6
+#4  0x00c0fa5a in __uflow () from /lib/libc.so.6
+#5  0x00c0236c in _IO_getline_info_internal () from /lib/libc.so.6
+#6  0x00c022b1 in _IO_getline_internal () from /lib/libc.so.6
+#7  0x00c011ea in fgets () from /lib/libc.so.6
+#8  0x010da2b9 in ndpGetCallStack () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#9  0x01103763 in pliAppDbg_SigHandler () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#10 0x010d9df1 in catchSignalCB () from /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius111.so
+#11 <signal handler called>
+#12 0x0adc7f95 in ?? ()
+#13 0x0ae3a4ac in ?? ()
+118 Sim process exit

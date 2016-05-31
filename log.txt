@@ -1,0 +1,274 @@
+Platform = amd64
+ncverilog: 11.10-s072: (c) Copyright 1995-2013 Cadence Design Systems, Inc.
+Recompiling... reason: file './ram_2R1WR.v' is newer than expected.
+	expected: Mon Jun 29 21:56:02 2015
+	actual:   Mon Jun 29 22:17:10 2015
+file: ./TESTBENCH.v
+	module worklib.ram_2R1W:v
+		errors: 0, warnings: 0
+file: /fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src/XilinxCoreLib/BLK_MEM_GEN_V7_2.v
+ncvlog: *W,LIBNOU: Library "/fpga/Xilinx/14.2/ISE_DS/ISE/verilog/src/unisims" given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'XilinxCoreLib' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  .web(0),
+       |
+ncelab: *W,CUVMPW (./ram_2R1WR.v,37|7): port sizes differ in port connection (32/1).
+  .web(0),
+       |
+ncelab: *W,CUVMPW (./ram_2R1WR.v,50|7): port sizes differ in port connection (32/1).
+  .web(0),
+       |
+ncelab: *W,CUVMPW (./ram_2R1WR.v,64|7): port sizes differ in port connection (32/1).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ram_2R1W:v <0x62337c4d>
+			streams:  17, words:  8497
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                22      19
+		Registers:             476     205
+		Scalar wires:          222       -
+		Vectored wires:        133       -
+		Always blocks:          21      66
+		Initial blocks:         57      60
+		Cont. assignments:      61      67
+		Pseudo assignments:     58      28
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.glbl:v
+Loading snapshot worklib.glbl:v .................... Done
+*Verdi3* Loading libsscore_ius111.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TESTBENCH.ram.bank1.inst.native_mem_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TESTBENCH.ram.bank2.inst.native_mem_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module TESTBENCH.ram.bankxor.inst.native_mem_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+          0|w_a = 1545, w_d =         36,w_en =1|  R1_a = 1316, R1_d =          0 | R2_a = 1665, R2_d =          0
+          1|w_a = 1125, w_d =        129,w_en =0|  R1_a =  781, R1_d =          0 | R2_a =  397, R2_d =          0
+          2|w_a =  374, w_d =          9,w_en =1|  R1_a =  769, R1_d =          0 | R2_a = 1293, R2_d =          0
+          3|w_a =  505, w_d =         99,w_en =0|  R1_a = 2029, R1_d =          0 | R2_a = 1932, R2_d =          0
+          4|w_a = 2021, w_d =         13,w_en =1|  R1_a = 1221, R1_d =          0 | R2_a =  682, R2_d =          0
+          5|w_a =  498, w_d =        141,w_en =0|  R1_a = 1554, R1_d =          0 | R2_a =  911, R2_d =          0
+          6|w_a =  348, w_d =        101,w_en =1|  R1_a =  744, R1_d =          0 | R2_a = 1733, R2_d =          0
+          7|w_a =  611, w_d =         18,w_en =0|  R1_a =   45, R1_d =          0 | R2_a = 1637, R2_d =          0
+          8|w_a = 1450, w_d =          1,w_en =1|  R1_a =  640, R1_d =          0 | R2_a =  288, R2_d =          0
+          9|w_a =   13, w_d =         13,w_en =1|  R1_a = 1686, R1_d =          0 | R2_a =   19, R2_d =          0
+         10|w_a =  514, w_d =        118,w_en =0|  R1_a = 1387, R1_d =          0 | R2_a =  725, R2_d =          0
+         11|w_a =  291, w_d =         61,w_en =0|  R1_a =  285, R1_d =          0 | R2_a =  719, R2_d =          0
+         12|w_a = 1522, w_d =        237,w_en =0|  R1_a =  714, R1_d =          0 | R2_a = 1084, R2_d =          0
+         13|w_a =  888, w_d =        140,w_en =1|  R1_a =  833, R1_d =          0 | R2_a = 1240, R2_d =          0
+         14|w_a =  454, w_d =        249,w_en =0|  R1_a = 1515, R1_d =          0 | R2_a = 1462, R2_d =          0
+         15|w_a =  523, w_d =        198,w_en =1|  R1_a =  700, R1_d =          0 | R2_a = 1322, R2_d =          0
+         16|w_a =   59, w_d =        197,w_en =0|  R1_a =  389, R1_d =          0 | R2_a = 1359, R2_d =          0
+         17|w_a = 1009, w_d =        170,w_en =1|  R1_a =  638, R1_d =          0 | R2_a =  789, R2_d =          0
+         18|w_a = 1439, w_d =        229,w_en =1|  R1_a = 1890, R1_d =          0 | R2_a =  844, R2_d =          0
+         19|w_a = 1695, w_d =        119,w_en =0|  R1_a =  504, R1_d =          0 | R2_a =  183, R2_d =          0
+         20|w_a =  585, w_d =         18,w_en =0|  R1_a =   91, R1_d =          0 | R2_a = 1929, R2_d =          0
+         21|w_a = 1942, w_d =        143,w_en =0|  R1_a =  215, R1_d =          0 | R2_a = 1105, R2_d =          0
+         22|w_a =  631, w_d =        242,w_en =1|  R1_a = 1730, R1_d =          0 | R2_a = 1480, R2_d =          0
+         23|w_a =  365, w_d =        206,w_en =1|  R1_a =  786, R1_d =          0 | R2_a =  126, R2_d =          0
+         24|w_a = 1925, w_d =        232,w_en =0|  R1_a = 1823, R1_d =          0 | R2_a = 1747, R2_d =          0
+         25|w_a = 1599, w_d =        197,w_en =0|  R1_a =  347, R1_d =          0 | R2_a =  841, R2_d =          0
+         26|w_a = 1166, w_d =         92,w_en =0|  R1_a =  856, R1_d =          0 | R2_a =  134, R2_d =          0
+         27|w_a = 1907, w_d =        189,w_en =1|  R1_a =  506, R1_d =          0 | R2_a = 1062, R2_d =          0
+         28|w_a = 1631, w_d =         45,w_en =0|  R1_a =   47, R1_d =          0 | R2_a =  691, R2_d =          0
+         29|w_a =  742, w_d =        101,w_en =0|  R1_a = 1527, R1_d =          0 | R2_a = 1739, R2_d =          0
+         30|w_a = 1242, w_d =         99,w_en =1|  R1_a =  297, R1_d =          0 | R2_a =  749, R2_d =          0
+         31|w_a =  377, w_d =         10,w_en =0|  R1_a =  693, R1_d =          0 | R2_a = 1247, R2_d =          0
+         32|w_a = 1451, w_d =        128,w_en =0|  R1_a = 1232, R1_d =          0 | R2_a =  810, R2_d =          0
+         33|w_a =  765, w_d =         32,w_en =1|  R1_a = 1500, R1_d =          0 | R2_a = 1178, R2_d =          0
+         34|w_a = 1639, w_d =        170,w_en =0|  R1_a = 1366, R1_d =          0 | R2_a =  334, R2_d =          0
+         35|w_a = 1913, w_d =        157,w_en =0|  R1_a =  438, R1_d =          0 | R2_a =  568, R2_d =          0
+         36|w_a = 1028, w_d =        150,w_en =1|  R1_a = 1940, R1_d =          0 | R2_a = 1427, R2_d =          0
+         37|w_a = 2009, w_d =         19,w_en =1|  R1_a =  475, R1_d =          0 | R2_a = 1613, R2_d =          0
+         38|w_a = 1462, w_d =         13,w_en =1|  R1_a =  630, R1_d =          0 | R2_a =  458, R2_d =          0
+         39|w_a =  503, w_d =         83,w_en =1|  R1_a =  582, R1_d =          0 | R2_a =  772, R2_d =          0
+         40|w_a =  296, w_d =        107,w_en =1|  R1_a =  692, R1_d =          0 | R2_a = 1416, R2_d =          0
+         41|w_a = 1032, w_d =        213,w_en =0|  R1_a =  199, R1_d =          0 | R2_a = 1070, R2_d =          0
+         42|w_a =   28, w_d =          2,w_en =0|  R1_a = 1789, R1_d =          0 | R2_a = 1833, R2_d =          0
+         43|w_a = 1894, w_d =        174,w_en =0|  R1_a =  218, R1_d =          0 | R2_a = 1597, R2_d =          0
+         44|w_a =  862, w_d =         29,w_en =0|  R1_a = 1139, R1_d =          0 | R2_a =  442, R2_d =          0
+         45|w_a =  185, w_d =        207,w_en =1|  R1_a = 1493, R1_d =          0 | R2_a = 1562, R2_d =          0
+         46|w_a = 1830, w_d =         35,w_en =0|  R1_a = 1942, R1_d =          0 | R2_a =  448, R2_d =          0
+         47|w_a = 1926, w_d =         10,w_en =0|  R1_a =  893, R1_d =          0 | R2_a = 2012, R2_d =          0
+         48|w_a = 1743, w_d =        202,w_en =1|  R1_a =  894, R1_d =          0 | R2_a =  219, R2_d =          0
+         49|w_a =  279, w_d =         60,w_en =1|  R1_a = 1274, R1_d =          0 | R2_a = 1633, R2_d =          0
+         50|w_a =  501, w_d =        242,w_en =1|  R1_a =  390, R1_d =          0 | R2_a = 1616, R2_d =          0
+         51|w_a = 1221, w_d =        138,w_en =0|  R1_a =  553, R1_d =          0 | R2_a = 1473, R2_d =          0
+         52|w_a = 1772, w_d =         65,w_en =0|  R1_a =  843, R1_d =          0 | R2_a =  627, R2_d =          0
+         53|w_a = 1449, w_d =        216,w_en =1|  R1_a =  334, R1_d =          0 | R2_a =  168, R2_d =          0
+         54|w_a =  159, w_d =        120,w_en =0|  R1_a =  270, R1_d =          0 | R2_a = 1766, R2_d =          0
+         55|w_a = 1950, w_d =        137,w_en =0|  R1_a = 1322, R1_d =          0 | R2_a = 1165, R2_d =          0
+         56|w_a = 1482, w_d =        235,w_en =1|  R1_a =  121, R1_d =          0 | R2_a =  968, R2_d =          0
+         57|w_a = 1462, w_d =        182,w_en =0|  R1_a =  363, R1_d =          0 | R2_a = 1735, R2_d =          0
+         58|w_a =  914, w_d =        198,w_en =0|  R1_a =  964, R1_d =          0 | R2_a = 1465, R2_d =          0
+         59|w_a = 1530, w_d =        174,w_en =0|  R1_a =  895, R1_d =          0 | R2_a =  134, R2_d =          0
+         60|w_a = 1412, w_d =        188,w_en =0|  R1_a =  306, R1_d =          0 | R2_a = 1725, R2_d =          0
+         61|w_a =  161, w_d =         42,w_en =0|  R1_a = 1994, R1_d =          0 | R2_a =  425, R2_d =          0
+         62|w_a =  239, w_d =         11,w_en =1|  R1_a =  763, R1_d =          0 | R2_a = 1547, R2_d =          0
+         63|w_a = 1679, w_d =        113,w_en =1|  R1_a = 1334, R1_d =          0 | R2_a =  117, R2_d =          0
+         64|w_a =  411, w_d =        133,w_en =0|  R1_a = 1928, R1_d =          0 | R2_a = 1198, R2_d =          0
+         65|w_a = 1867, w_d =         79,w_en =0|  R1_a = 1832, R1_d =          0 | R2_a =   45, R2_d =          0
+         66|w_a = 1516, w_d =         59,w_en =0|  R1_a = 1566, R1_d =          0 | R2_a = 1293, R2_d =          0
+         67|w_a = 1089, w_d =         58,w_en =1|  R1_a =  977, R1_d =          0 | R2_a = 1158, R2_d =          0
+         68|w_a =  598, w_d =        126,w_en =1|  R1_a =  472, R1_d =          0 | R2_a =  339, R2_d =          0
+         69|w_a =  883, w_d =         21,w_en =0|  R1_a =  738, R1_d =          0 | R2_a =  516, R2_d =          0
+         70|w_a =  569, w_d =        241,w_en =1|  R1_a = 1298, R1_d =          0 | R2_a = 1208, R2_d =          0
+         71|w_a = 1409, w_d =        217,w_en =0|  R1_a = 1185, R1_d =          0 | R2_a = 1835, R2_d =          0
+         72|w_a = 1567, w_d =         98,w_en =0|  R1_a = 1319, R1_d =          0 | R2_a =  417, R2_d =          0
+         73|w_a =  788, w_d =         76,w_en =0|  R1_a =  856, R1_d =          0 | R2_a =  150, R2_d =          0
+         74|w_a = 1365, w_d =        159,w_en =1|  R1_a =  150, R1_d =          0 | R2_a =  689, R2_d =          0
+         75|w_a =  941, w_d =        143,w_en =1|  R1_a =  811, R1_d =          0 | R2_a = 1013, R2_d =          0
+         76|w_a = 1767, w_d =        248,w_en =1|  R1_a = 1924, R1_d =          0 | R2_a = 1191, R2_d =          0
+         77|w_a = 1993, w_d =        183,w_en =1|  R1_a = 1609, R1_d =          0 | R2_a =  987, R2_d =          0
+         78|w_a = 1530, w_d =        159,w_en =1|  R1_a = 1697, R1_d =          0 | R2_a = 1322, R2_d =          0
+         79|w_a = 1138, w_d =         92,w_en =0|  R1_a = 1411, R1_d =          0 | R2_a =  636, R2_d =          0
+         80|w_a = 1414, w_d =         91,w_en =0|  R1_a =  616, R1_d =          0 | R2_a =  623, R2_d =          0
+         81|w_a = 1576, w_d =        137,w_en =0|  R1_a = 1848, R1_d =          0 | R2_a =  320, R2_d =          0
+         82|w_a = 1908, w_d =         73,w_en =1|  R1_a =  709, R1_d =          0 | R2_a =  448, R2_d =          0
+         83|w_a =  810, w_d =        208,w_en =0|  R1_a =  688, R1_d =          0 | R2_a = 1852, R2_d =          0
+         84|w_a = 1303, w_d =        215,w_en =1|  R1_a = 1301, R1_d =          0 | R2_a = 1761, R2_d =          0
+         85|w_a =  805, w_d =         81,w_en =1|  R1_a =  969, R1_d =          0 | R2_a = 1158, R2_d =          0
+         86|w_a = 1799, w_d =        150,w_en =0|  R1_a =  653, R1_d =          0 | R2_a =  602, R2_d =          0
+         87|w_a = 1083, w_d =         12,w_en =0|  R1_a = 1292, R1_d =          0 | R2_a = 1649, R2_d =          0
+         88|w_a =   92, w_d =        194,w_en =1|  R1_a =  759, R1_d =          0 | R2_a = 1694, R2_d =          0
+         89|w_a =  370, w_d =        200,w_en =0|  R1_a =  544, R1_d =          0 | R2_a =  672, R2_d =          0
+         90|w_a =  331, w_d =        119,w_en =1|  R1_a = 1501, R1_d =          0 | R2_a =   13, R2_d =         13
+         91|w_a =  635, w_d =         61,w_en =1|  R1_a =  670, R1_d =          0 | R2_a = 1277, R2_d =          0
+         92|w_a =  797, w_d =         18,w_en =1|  R1_a =  515, R1_d =          0 | R2_a =  483, R2_d =          0
+         93|w_a = 1248, w_d =        126,w_en =1|  R1_a = 1860, R1_d =          0 | R2_a = 1173, R2_d =          0
+         94|w_a = 1933, w_d =        109,w_en =0|  R1_a = 1362, R1_d =          0 | R2_a = 1016, R2_d =          0
+         95|w_a =  652, w_d =         57,w_en =0|  R1_a = 1924, R1_d =          0 | R2_a = 1350, R2_d =          0
+         96|w_a = 1924, w_d =         31,w_en =0|  R1_a =  279, R1_d =         60 | R2_a =  362, R2_d =          0
+         97|w_a = 1466, w_d =        211,w_en =1|  R1_a = 1916, R1_d =          0 | R2_a =  608, R2_d =          0
+         98|w_a =  818, w_d =        133,w_en =0|  R1_a = 1702, R1_d =          0 | R2_a = 1573, R2_d =          0
+         99|w_a =   61, w_d =        120,w_en =1|  R1_a = 1097, R1_d =          0 | R2_a =   20, R2_d =          0
+        100|w_a = 1926, w_d =         91,w_en =1|  R1_a =   92, R1_d =        194 | R2_a = 1351, R2_d =          0
+        101|w_a =   44, w_d =         73,w_en =0|  R1_a =  692, R1_d =          0 | R2_a = 1488, R2_d =          0
+        102|w_a =  273, w_d =         63,w_en =0|  R1_a = 1799, R1_d =          0 | R2_a =  106, R2_d =          0
+        103|w_a = 1004, w_d =         42,w_en =1|  R1_a = 1611, R1_d =          0 | R2_a =  371, R2_d =          0
+        104|w_a = 1081, w_d =         88,w_en =1|  R1_a = 1956, R1_d =          0 | R2_a = 1481, R2_d =          0
+        105|w_a =  413, w_d =        134,w_en =0|  R1_a = 1236, R1_d =          0 | R2_a = 1383, R2_d =          0
+        106|w_a =  729, w_d =        142,w_en =0|  R1_a =  386, R1_d =          0 | R2_a = 1865, R2_d =          0
+        107|w_a =  483, w_d =        156,w_en =0|  R1_a = 1052, R1_d =          0 | R2_a = 1939, R2_d =          0
+        108|w_a = 1338, w_d =        250,w_en =0|  R1_a =  200, R1_d =          0 | R2_a = 1629, R2_d =          0
+        109|w_a = 1042, w_d =         38,w_en =0|  R1_a =   43, R1_d =          0 | R2_a = 1849, R2_d =          0
+        110|w_a =  622, w_d =        115,w_en =1|  R1_a =  345, R1_d =          0 | R2_a = 1744, R2_d =          0
+        111|w_a =  955, w_d =        163,w_en =0|  R1_a = 2011, R1_d =          0 | R2_a = 1958, R2_d =          0
+        112|w_a =  524, w_d =         47,w_en =1|  R1_a = 1039, R1_d =          0 | R2_a = 1641, R2_d =          0
+        113|w_a = 1424, w_d =        179,w_en =1|  R1_a =  453, R1_d =          0 | R2_a = 1487, R2_d =          0
+        114|w_a = 1354, w_d =         95,w_en =0|  R1_a = 1129, R1_d =          0 | R2_a = 1399, R2_d =          0
+        115|w_a =  440, w_d =         68,w_en =1|  R1_a = 1435, R1_d =          0 | R2_a =  708, R2_d =          0
+        116|w_a =  887, w_d =        247,w_en =1|  R1_a = 1670, R1_d =          0 | R2_a =  560, R2_d =          0
+        117|w_a = 1910, w_d =        203,w_en =1|  R1_a = 1492, R1_d =          0 | R2_a = 1799, R2_d =          0
+        118|w_a =  987, w_d =        230,w_en =0|  R1_a =  907, R1_d =          0 | R2_a = 1793, R2_d =          0
+        119|w_a =  560, w_d =         90,w_en =1|  R1_a = 1986, R1_d =          0 | R2_a =  709, R2_d =          0
+        120|w_a = 1769, w_d =         41,w_en =0|  R1_a =  614, R1_d =          0 | R2_a =  431, R2_d =          0
+        121|w_a = 2017, w_d =        237,w_en =1|  R1_a = 1030, R1_d =          0 | R2_a = 1775, R2_d =          0
+        122|w_a = 1765, w_d =        218,w_en =0|  R1_a = 1774, R1_d =          0 | R2_a = 1376, R2_d =          0
+        123|w_a = 1761, w_d =        101,w_en =1|  R1_a = 1380, R1_d =          0 | R2_a = 1833, R2_d =          0
+        124|w_a =  469, w_d =        181,w_en =0|  R1_a = 1390, R1_d =          0 | R2_a = 1409, R2_d =          0
+        125|w_a =  783, w_d =        223,w_en =1|  R1_a =  496, R1_d =          0 | R2_a =  170, R2_d =          0
+        126|w_a = 1250, w_d =        121,w_en =0|  R1_a = 1149, R1_d =          0 | R2_a = 1422, R2_d =          0
+        127|w_a =   91, w_d =         68,w_en =1|  R1_a = 1705, R1_d =          0 | R2_a =  495, R2_d =          0
+        128|w_a = 1299, w_d =        208,w_en =1|  R1_a =  842, R1_d =          0 | R2_a = 1465, R2_d =          0
+        129|w_a =  695, w_d =         42,w_en =1|  R1_a =  357, R1_d =          0 | R2_a = 1873, R2_d =          0
+        130|w_a = 1890, w_d =        171,w_en =0|  R1_a =   58, R1_d =          0 | R2_a =  625, R2_d =          0
+        131|w_a = 1881, w_d =         14,w_en =1|  R1_a = 1322, R1_d =          0 | R2_a = 1149, R2_d =          0
+        132|w_a = 1089, w_d =        220,w_en =1|  R1_a = 1005, R1_d =          0 | R2_a =  201, R2_d =          0
+        133|w_a = 1904, w_d =        154,w_en =0|  R1_a = 1243, R1_d =          0 | R2_a =  205, R2_d =          0
+        134|w_a = 1642, w_d =        253,w_en =0|  R1_a =  162, R1_d =          0 | R2_a = 1469, R2_d =          0
+        135|w_a =   37, w_d =        195,w_en =0|  R1_a = 1616, R1_d =          0 | R2_a = 1147, R2_d =          0
+        136|w_a =  803, w_d =         86,w_en =1|  R1_a =  502, R1_d =          0 | R2_a = 1628, R2_d =          0
+        137|w_a = 1550, w_d =         78,w_en =1|  R1_a = 1480, R1_d =          0 | R2_a = 1723, R2_d =          0
+        138|w_a =  468, w_d =        103,w_en =1|  R1_a =  780, R1_d =          0 | R2_a =  206, R2_d =          0
+        139|w_a = 2036, w_d =         10,w_en =1|  R1_a = 1977, R1_d =          0 | R2_a =  179, R2_d =          0
+        140|w_a =  770, w_d =        182,w_en =1|  R1_a =  268, R1_d =          0 | R2_a =  569, R2_d =        241
+        141|w_a =  258, w_d =         56,w_en =0|  R1_a =  261, R1_d =          0 | R2_a =  846, R2_d =          0
+        142|w_a = 1711, w_d =        121,w_en =0|  R1_a =  520, R1_d =          0 | R2_a =  909, R2_d =          0
+        143|w_a =   76, w_d =        184,w_en =1|  R1_a =  400, R1_d =          0 | R2_a = 1013, R2_d =          0
+        144|w_a = 1549, w_d =        148,w_en =0|  R1_a = 1600, R1_d =          0 | R2_a =  805, R2_d =         81
+        145|w_a =  444, w_d =        147,w_en =0|  R1_a =  301, R1_d =          0 | R2_a =   41, R2_d =          0
+        146|w_a =  673, w_d =          4,w_en =1|  R1_a = 1472, R1_d =          0 | R2_a =  336, R2_d =          0
+        147|w_a = 1117, w_d =         89,w_en =0|  R1_a = 1781, R1_d =          0 | R2_a = 2037, R2_d =          0
+        148|w_a =  184, w_d =        219,w_en =0|  R1_a = 1642, R1_d =          0 | R2_a = 1468, R2_d =          0
+        149|w_a = 1031, w_d =         77,w_en =1|  R1_a = 1786, R1_d =          0 | R2_a =  838, R2_d =          0
+        150|w_a =  325, w_d =        217,w_en =1|  R1_a = 1109, R1_d =          0 | R2_a =  951, R2_d =          0
+        151|w_a = 1640, w_d =        109,w_en =0|  R1_a =   89, R1_d =          0 | R2_a = 1574, R2_d =          0
+        152|w_a = 1308, w_d =        118,w_en =1|  R1_a = 1168, R1_d =          0 | R2_a = 1370, R2_d =          0
+        153|w_a = 1391, w_d =        202,w_en =0|  R1_a = 1963, R1_d =          0 | R2_a =  464, R2_d =          0
+        154|w_a =  907, w_d =        182,w_en =0|  R1_a =   69, R1_d =          0 | R2_a = 1933, R2_d =          0
+        155|w_a = 1305, w_d =        149,w_en =1|  R1_a = 2012, R1_d =          0 | R2_a =  676, R2_d =          0
+        156|w_a = 1112, w_d =         70,w_en =0|  R1_a = 1598, R1_d =          0 | R2_a =  243, R2_d =          0
+        157|w_a =  154, w_d =          4,w_en =0|  R1_a =  860, R1_d =          0 | R2_a = 1286, R2_d =          0
+        158|w_a =  794, w_d =        247,w_en =1|  R1_a = 1733, R1_d =          0 | R2_a =  426, R2_d =          0
+        159|w_a = 1769, w_d =        105,w_en =1|  R1_a =  434, R1_d =          0 | R2_a =  780, R2_d =          0
+        160|w_a = 1010, w_d =        180,w_en =1|  R1_a = 1003, R1_d =          0 | R2_a =  504, R2_d =          0
+        161|w_a =  173, w_d =        136,w_en =0|  R1_a =  879, R1_d =          0 | R2_a =  795, R2_d =          0
+        162|w_a = 1451, w_d =         40,w_en =1|  R1_a =  549, R1_d =          0 | R2_a = 1999, R2_d =          0
+        163|w_a = 1410, w_d =         45,w_en =0|  R1_a = 1664, R1_d =          0 | R2_a =  349, R2_d =          0
+        164|w_a =  818, w_d =        199,w_en =1|  R1_a = 1367, R1_d =          0 | R2_a =  822, R2_d =          0
+        165|w_a = 1194, w_d =         46,w_en =0|  R1_a = 1764, R1_d =          0 | R2_a = 1046, R2_d =          0
+        166|w_a =  625, w_d =          8,w_en =1|  R1_a =   46, R1_d =          0 | R2_a = 1932, R2_d =          0
+        167|w_a = 1815, w_d =         28,w_en =1|  R1_a =  444, R1_d =          0 | R2_a =  220, R2_d =          0
+        168|w_a = 1673, w_d =        253,w_en =1|  R1_a =  491, R1_d =          0 | R2_a =  949, R2_d =          0
+        169|w_a =  723, w_d =         41,w_en =0|  R1_a = 1727, R1_d =          0 | R2_a =  688, R2_d =          0
+        170|w_a = 1905, w_d =         28,w_en =1|  R1_a = 1154, R1_d =          0 | R2_a = 1306, R2_d =          0
+        171|w_a = 1485, w_d =        134,w_en =1|  R1_a = 1550, R1_d =         78 | R2_a = 1265, R2_d =          0
+        172|w_a =  236, w_d =        218,w_en =0|  R1_a =  796, R1_d =          0 | R2_a = 1944, R2_d =          0
+        173|w_a = 1539, w_d =         61,w_en =0|  R1_a =  613, R1_d =          0 | R2_a = 1335, R2_d =          0
+        174|w_a = 1256, w_d =        102,w_en =0|  R1_a = 1277, R1_d =          0 | R2_a = 1598, R2_d =          0
+        175|w_a = 1298, w_d =        112,w_en =0|  R1_a =  432, R1_d =          0 | R2_a = 1030, R2_d =          0
+        176|w_a = 1334, w_d =        115,w_en =1|  R1_a =  197, R1_d =          0 | R2_a = 1790, R2_d =          0
+        177|w_a = 1815, w_d =        186,w_en =1|  R1_a = 1019, R1_d =          0 | R2_a = 1131, R2_d =          0
+        178|w_a = 1702, w_d =         94,w_en =0|  R1_a = 1556, R1_d =          0 | R2_a = 1322, R2_d =          0
+        179|w_a =  772, w_d =        250,w_en =0|  R1_a =  203, R1_d =          0 | R2_a =  619, R2_d =          0
+        180|w_a = 1413, w_d =        213,w_en =1|  R1_a =  397, R1_d =          0 | R2_a =  225, R2_d =          0
+        181|w_a =  582, w_d =         26,w_en =0|  R1_a = 1737, R1_d =          0 | R2_a = 1632, R2_d =          0
+        182|w_a = 1907, w_d =        185,w_en =0|  R1_a = 1847, R1_d =          0 | R2_a = 1368, R2_d =          0
+        183|w_a = 1488, w_d =         55,w_en =0|  R1_a =  988, R1_d =          0 | R2_a =  816, R2_d =          0
+        184|w_a =  673, w_d =        150,w_en =1|  R1_a = 1859, R1_d =          0 | R2_a =  504, R2_d =          0
+        185|w_a =  647, w_d =        192,w_en =0|  R1_a = 1944, R1_d =          0 | R2_a = 1375, R2_d =          0
+        186|w_a =  107, w_d =         38,w_en =1|  R1_a =  301, R1_d =          0 | R2_a =  624, R2_d =          0
+        187|w_a =  781, w_d =        182,w_en =1|  R1_a =   18, R1_d =          0 | R2_a = 1804, R2_d =          0
+        188|w_a =  852, w_d =        125,w_en =0|  R1_a = 1856, R1_d =          0 | R2_a = 1428, R2_d =          0
+        189|w_a = 1773, w_d =        220,w_en =0|  R1_a = 1299, R1_d =        208 | R2_a = 1731, R2_d =          0
+        190|w_a = 1631, w_d =        134,w_en =1|  R1_a =  120, R1_d =          0 | R2_a = 1319, R2_d =          0
+        191|w_a = 1314, w_d =        120,w_en =1|  R1_a =  939, R1_d =          0 | R2_a = 1848, R2_d =          0
+        192|w_a = 1998, w_d =        126,w_en =1|  R1_a = 1223, R1_d =          0 | R2_a =  642, R2_d =          0
+        193|w_a = 1032, w_d =        219,w_en =1|  R1_a = 1060, R1_d =          0 | R2_a = 2011, R2_d =          0
+        194|w_a =  824, w_d =        207,w_en =0|  R1_a = 1461, R1_d =          0 | R2_a =  538, R2_d =          0
+        195|w_a =  675, w_d =        121,w_en =0|  R1_a =   88, R1_d =          0 | R2_a =  592, R2_d =          0
+        196|w_a =  262, w_d =        250,w_en =0|  R1_a = 1893, R1_d =          0 | R2_a = 2026, R2_d =          0
+        197|w_a =  328, w_d =         97,w_en =1|  R1_a =   91, R1_d =         68 | R2_a =  200, R2_d =          0
+        198|w_a =  337, w_d =         23,w_en =1|  R1_a = 1016, R1_d =          0 | R2_a =  693, R2_d =          0
+        199|w_a =  944, w_d =        161,w_en =1|  R1_a =  923, R1_d =          0 | R2_a = 1333, R2_d =          0
+        200|w_a = 1048, w_d =        134,w_en =1|  R1_a =  847, R1_d =          0 | R2_a = 1584, R2_d =          0
+        201|w_a =   89, w_d =         80,w_en =1|  R1_a =   70, R1_d =          0 | R2_a = 1889, R2_d =          0
+        202|w_a =  734, w_d =        245,w_en =1|  R1_a = 1839, R1_d =          0 | R2_a =   11, R2_d =          0
+        203|w_a =  344, w_d =         53,w_en =1|  R1_a =  296, R1_d =        107 | R2_a =  489, R2_d =          0
+        204|w_a = 1444, w_d =         41,w_en =0|  R1_a = 1475, R1_d =          0 | R2_a =  980, R2_d =          0
+        205|w_a = 1155, w_d =        193,w_en =0|  R1_a = 1494, R1_d =          0 | R2_a =   15, R2_d =          0
+        206|w_a =  837, w_d =        197,w_en =1|  R1_a = 1154, R1_d =          0 | R2_a =  959, R2_d =          0
+        207|w_a =  760, w_d =        152,w_en =0|  R1_a =  837, R1_d =        197 | R2_a =  117, R2_d =          0
+        208|w_a =  817, w_d =         75,w_en =0|  R1_a =  364, R1_d =          0 | R2_a =   80, R2_d =          0
+        209|w_a = 1038, w_d =        115,w_en =1|  R1_a = 1212, R1_d =          0 | R2_a = 1711, R2_d =          0
+        210|w_a = 1157, w_d =        236,w_en =0|  R1_a =  178, R1_d =          0 | R2_a = 1758, R2_d =          0
+        211|w_a =  410, w_d =        138,w_en =1|  R1_a =  296, R1_d =        107 | R2_a = 1474, R2_d =          0
+        212|w_a =  651, w_d =         78,w_en =0|  R1_a =  698, R1_d =          0 | R2_a = 1275, R2_d =          0
+        213|w_a =  414, w_d =        168,w_en =1|  R1_a =  204, R1_d =          0 | R2_a =  881, R2_d =        168
+ERROR:, R2 address =  881, golden answer is           0, your is        168
+Simulation complete via $finish(1) at time 2190 NS + 0
+./PATTERN.v:102         $finish;
+ncsim> exit
